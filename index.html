@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body onload="showTitle()">
+    <header>
+        <nav>
+            <h1>Let's start adding some notes!</h1>
+            <!-- <button id="addNotes">+</button> -->
+        </nav>
+    </header>
+    <main>
+        <section class="create">
+            <aside>
+                <h2>Create the note!✅</h2>
+                <div class="noteButtons">
+                    <button class="button" id="createButton">Create</button>
+                    <button class="button" id="resetButton">Reset</button>
+                </div>
+                <textarea name="" id="textArea" cols="40" rows="10" placeholder="Type something..."></textarea>
+            </aside>
+        </section>
+        <section id="notesContainer">
+            <!-- <div class="note">
+                <aside class="topSettings">
+                    <i class='bx bx-dots-horizontal-rounded' id="noteMenu"></i>
+                    <p id="closeNote">X</p>
+                </aside>
+                <p class="noteText" contenteditable="true">
+                    hola
+                </p>
+                <aside class="bottomSettings">
+                    <i class='bx bx-bold' id="boldNote"></i>
+                    <i class='bx bx-italic' id="italicNote"></i>
+                    <i class='bx bx-underline' id="underlineNote"></i>
+                    <i class='bx bx-strikethrough' id="strikeNote"></i>
+                </aside>
+            </div> -->
+        </section>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
