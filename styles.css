@@ -123,7 +123,7 @@ main {
 .topSettings, .bottomSettings {
     display: flex;
     align-items: center;
-    height: 12.5%;
+    min-height: 37.5px;
 }
 
 .topSettings {
